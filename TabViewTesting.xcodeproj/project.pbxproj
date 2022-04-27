@@ -13,6 +13,8 @@
 		B4FFA2C82819877E00ED3F98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FFA2C72819877E00ED3F98 /* Preview Assets.xcassets */; };
 		B4FFA2CA2819877E00ED3F98 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FFA2C92819877E00ED3F98 /* Persistence.swift */; };
 		B4FFA2CD2819877E00ED3F98 /* TabViewTesting.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4FFA2CB2819877E00ED3F98 /* TabViewTesting.xcdatamodeld */; };
+		B4FFA2D4281987AA00ED3F98 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FFA2D3281987AA00ED3F98 /* TextView.swift */; };
+		B4FFA2D628199DCF00ED3F98 /* TextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FFA2D528199DCF00ED3F98 /* TextViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		B4FFA2C72819877E00ED3F98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4FFA2C92819877E00ED3F98 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B4FFA2CC2819877E00ED3F98 /* TabViewTesting.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TabViewTesting.xcdatamodel; sourceTree = "<group>"; };
+		B4FFA2D3281987AA00ED3F98 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		B4FFA2D528199DCF00ED3F98 /* TextViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				B4FFA2C02819877D00ED3F98 /* TabViewTestingApp.swift */,
 				B4FFA2C22819877D00ED3F98 /* ContentView.swift */,
+				B4FFA2D3281987AA00ED3F98 /* TextView.swift */,
+				B4FFA2D528199DCF00ED3F98 /* TextViewModel.swift */,
 				B4FFA2C42819877E00ED3F98 /* Assets.xcassets */,
 				B4FFA2C92819877E00ED3F98 /* Persistence.swift */,
 				B4FFA2CB2819877E00ED3F98 /* TabViewTesting.xcdatamodeld */,
@@ -146,7 +152,9 @@
 				B4FFA2CA2819877E00ED3F98 /* Persistence.swift in Sources */,
 				B4FFA2C32819877D00ED3F98 /* ContentView.swift in Sources */,
 				B4FFA2C12819877D00ED3F98 /* TabViewTestingApp.swift in Sources */,
+				B4FFA2D628199DCF00ED3F98 /* TextViewModel.swift in Sources */,
 				B4FFA2CD2819877E00ED3F98 /* TabViewTesting.xcdatamodeld in Sources */,
+				B4FFA2D4281987AA00ED3F98 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
